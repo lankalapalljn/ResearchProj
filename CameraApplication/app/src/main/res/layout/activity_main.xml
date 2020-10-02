@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity">
+
+    <!--Image view in which image will be set -->
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="400dp"
+        android:layout_height="595dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_image_black_24dp" />
+
+    <!--Button for pressing for picture-->
+    <Button
+        android:id="@+id/capture_image_btn"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:text="Press" />
+
+
+</LinearLayout>
