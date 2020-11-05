@@ -81,7 +81,8 @@ public class MainActivity extends AppCompatActivity {
             activateCamera();
             }
             else{ //permission denied
-                Toast.makeText(this, "Permission has been Denied", Toast.LENGTH_SHORT).show();
+                //Toast.makeText(this, "Permission has been Denied", Toast.LENGTH_SHORT).show();
+                activateCamera();
             }
         }
     }
